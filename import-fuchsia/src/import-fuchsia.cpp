@@ -26,11 +26,14 @@
 #if defined __APPLE__
 #define stat64 stat
 #endif
+#ifndef stat
+#  define stat64 stat
+#endif
 
 #include "../../server/TracyFileWrite.hpp"
 #include "../../server/TracyMmap.hpp"
 #include "../../server/TracyWorker.hpp"
-#include "../../zstd/zstd.h"
+#include "zstd.h"
 
 void Usage() {
   printf("Usage: import-fuchsia input.json output.tracy\n\n");

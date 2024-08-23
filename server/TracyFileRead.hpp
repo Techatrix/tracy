@@ -21,14 +21,16 @@
 #if defined __APPLE__ || defined __FreeBSD__
 #  define stat64 stat
 #endif
+#ifndef stat
+#  define stat64 stat
+#endif
 
 #include "TracyFileHeader.hpp"
 #include "TracyFileMeta.hpp"
 #include "TracyMmap.hpp"
 #include "../public/common/TracyYield.hpp"
-#include "../public/common/tracy_lz4.hpp"
 #include "../public/common/TracyForceInline.hpp"
-#include "../zstd/zstd.h"
+#include "zstd.h"
 
 namespace tracy
 {

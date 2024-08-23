@@ -69,8 +69,6 @@
 #include "../common/TracySocket.hpp"
 #include "../common/TracySystem.hpp"
 #include "../common/TracyYield.hpp"
-#include "../common/tracy_lz4.hpp"
-#include "tracy_rpmalloc.hpp"
 #include "TracyCallstack.hpp"
 #include "TracyDebug.hpp"
 #include "TracyDxt1.hpp"
@@ -80,6 +78,9 @@
 #include "TracyArmCpuTable.hpp"
 #include "TracySysTrace.hpp"
 #include "../tracy/TracyC.h"
+
+#include "lz4/lz4.h"
+#include "rpmalloc/rpmalloc.h"
 
 #ifdef TRACY_PORT
 #  ifndef TRACY_DATA_PORT
@@ -308,7 +309,7 @@ struct ThreadHandleWrapper
 static inline void CpuId( uint32_t* regs, uint32_t leaf )
 {
     memset(regs, 0, sizeof(uint32_t) * 4);
-#if defined _WIN32
+#if defined _MSC_VER
     __cpuidex( (int*)regs, leaf, 0 );
 #else
     __get_cpuid( leaf, regs, regs+1, regs+2, regs+3 );

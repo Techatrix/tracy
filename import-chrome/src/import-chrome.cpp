@@ -17,13 +17,16 @@
 #if defined __APPLE__
 #  define stat64 stat
 #endif
+#ifndef stat
+#  define stat64 stat
+#endif
 
 #include "json.hpp"
 
 #include "../../server/TracyFileWrite.hpp"
 #include "../../server/TracyMmap.hpp"
 #include "../../server/TracyWorker.hpp"
-#include "../../zstd/zstd.h"
+#include "zstd.h"
 
 using json = nlohmann::json;
 
