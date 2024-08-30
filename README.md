@@ -29,10 +29,11 @@ zig build run
 - `user32` (windows)
 - `execinfo` (freeBSD)
 
-#### Profiler
+#### Profiler & Other Tools
 
 - `Ws2_32` (windows)
-- `ole32` (windows) 
+- `dbghelp` (windows, tracy-update only)
+- `ole32` (windows)
 - `uuid` (windows)
 - `shell32` (windows)
 - `AppKit` (macOS)

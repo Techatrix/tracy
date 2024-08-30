@@ -557,6 +557,7 @@ pub fn build(b: *std.Build) !void {
         update_exe.linkLibrary(lz4); // dependency of tracy-server
         update_exe.linkLibrary(zstd); // dependency of tracy-server
         update_exe.linkLibrary(tracy_server);
+        if (target.result.os.tag == .windows) update_exe.root_module.linkSystemLibrary("dbghelp", .{});
         if (no_statistics) update_exe.root_module.addCMacro("NO_STATISTICS", "1");
         if (no_parallel_stl) update_exe.root_module.addCMacro("NO_PARALLEL_SORT", "1");
         update_exe.addIncludePath(b.path(""));
