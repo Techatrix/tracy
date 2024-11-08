@@ -1,0 +1,127 @@
+{
+  "12206fc96f16c1835444b709f20704d92e636098e73a04ea1cf6b08ea51a3b1c6a2b": {
+    "name": "imgui",
+    "url": "git+https://github.com/ocornut/imgui.git?ref=v1.91.0-docking#139e99ca37a3e127c87690202faec005cd892d36",
+    "hash": "sha256-A5nd8qEC6pARJtbuU9MDWao+tuVjghx4y+Ed3aqbt/Y="
+  },
+  "1220c15e66c13f9633fcfd50b5ed265f74f2950c98b1f1defd66298fa027765e0190": {
+    "name": "glfw",
+    "url": "git+https://github.com/hexops/glfw.git#e6f377baed70a7bef9fa08d808f40b64c5136bf6",
+    "hash": "sha256-KvvZm3rHZucGa00XErSA82nwy8LjYsMs1eOmhXj8cIY="
+  },
+  "12205d131983601cdb3500f38e9d8adaed5574fb0211b8b39291d2e9b90c6555ce59": {
+    "name": "xcode_frameworks",
+    "url": "https://pkg.machengine.org/xcode-frameworks/122b43323db27b2082a2d44ed2121de21c9ccf75.tar.gz",
+    "hash": "sha256-+FS1jYPDAXM7+gTaxoJ1nrDb/CC+jBmL6pj7QffweG8="
+  },
+  "122058b98f7d2ac86597363d0c0515c30aea392c605d5976c600196bd2c5b08b95d6": {
+    "name": "vulkan_headers",
+    "url": "https://pkg.machengine.org/vulkan-headers/ae4bb705e6cad613825d9e7d8ffc29ca595f54cb.tar.gz",
+    "hash": "sha256-WWshEqy6velhWmVNhy7oTLvNFbQFbTTTddQXS/sgFT4="
+  },
+  "1220f350a0782d20a6618ea4e2884f7d0205a4e9b02c2d65fe3bf7b8113e7860fadf": {
+    "name": "wayland_headers",
+    "url": "https://pkg.machengine.org/wayland-headers/ed5542501a548ac23841c8f22cec0af89f46325a.tar.gz",
+    "hash": "sha256-owenIPF91qbOnoZGG1Pf0sBaMw9EbkxKoaMK/JVu2gw="
+  },
+  "1220ddf168c855cf69b4f8c5284403106a3c681913e34453df10cc5a588d9bd1d005": {
+    "name": "x11_headers",
+    "url": "https://pkg.machengine.org/x11-headers/22bb51a939722a819bf52aba100ac6c25acfbaff.tar.gz",
+    "hash": "sha256-sswJnzvlUaR4rgKopvc+mP/95gEHi5NUa1ZPyWudX1s="
+  },
+  "12200dbfe91946451bab186f584edbec9f9f7fdbcf818ad984b7182fea655b3c10e3": {
+    "name": "zstd",
+    "url": "git+https://github.com/allyourcodebase/zstd.git?ref=1.5.6-1#3247ffbcbc31f014027a5776a25c4261054e9fe9",
+    "hash": "sha256-6eBQR55BUdK+x0K4jNEeNF3hgpxQNI62IgGIAzWkeg4="
+  },
+  "12205df4790849e6ab600128051b962361901b706f75cbffe2eb8da09a81069f9011": {
+    "name": "zstd",
+    "url": "git+https://github.com/facebook/zstd.git?ref=v1.5.6#794ea1b0afca0f020f4e57b6732332231fb23c70",
+    "hash": "sha256-qcd92hQqVBjMT3hyntjcgk29o9wGQsg5Hg7HE5C0UNc="
+  },
+  "122062cee55ea063b596d72f2d32fc3ab60551ffc1433533ab2d79f07062d4565720": {
+    "name": "capstone",
+    "url": "git+https://github.com/allyourcodebase/capstone.git#a9067fbeaf0049b812a249c237e62408c3fd3df7",
+    "hash": "sha256-ayMv3WUASUaJAwGGCZk4lpTbXgNwmwpHY5TTEOJGkQU="
+  },
+  "12203db27899cf191689d4c4a37497e0bfb5e9e185ac8bb968792c5d138d64a75119": {
+    "name": "capstone",
+    "url": "https://github.com/capstone-engine/capstone/archive/refs/tags/5.0.1.tar.gz",
+    "hash": "sha256-K5xmkVkj/cQuDjLiqdfYPTU0pFuyNeFjpwBHlRiQwBo="
+  },
+  "122070136dfb55e09993ea332aad05eed39a150e624d195bb4397a80531d50a8d176": {
+    "name": "lz4",
+    "url": "git+https://github.com/allyourcodebase/lz4.git?ref=1.10.0-1#12b7e6d70a54a5c0f984abdde02449aa2131c0f0",
+    "hash": "sha256-H4pjg7sQhZI0CyBshQ5N4YU/IMYYiGvqebTzhbC6sOc="
+  },
+  "1220806155b365608bdfec2a076502c51a8127af1d800b5512d3ee93601a1aca7765": {
+    "name": "lz4",
+    "url": "git+https://github.com/lz4/lz4.git?ref=v1.10.0#ebb370ca83af193212df4dcbadcc5d87bc0de2f0",
+    "hash": "sha256-/dG1n59SKBaEBg72pAWltAtVmJ2cXxlFFhP+klrkTos="
+  },
+  "12207f1ff95171d2d8cfefc30a8032ef5cded02b4a2ec1dd0d10fe856b70e0fb2bd7": {
+    "name": "ini",
+    "url": "git+https://github.com/rxi/ini.git#13a254c9e38def8924a83badfea5eda5a01b9295",
+    "hash": "sha256-Eb/2Sfzyoo8Rpk6UoSoY5uDFxyd8Ar4E876O9JNfZ3Q="
+  },
+  "12207c1a4d33b3d3a3a9247844e21cc0389b4f62423a645ec94fb129c434cda60cda": {
+    "name": "nativefiledialog-extended",
+    "url": "git+https://github.com/allyourcodebase/nativefiledialog-extended.git?ref=1.2.1#9cd327447daca85779705350606b6bd4dd330a4f",
+    "hash": "sha256-pbxzKtybpNqZMHzyPYQ6oSXKHMtnkf0Elk8tPPYMpbA="
+  },
+  "1220f7fb0d64d9c6e06bff39d93abaed733afef7c64281edfd3e433bee9eba28c8cf": {
+    "name": "nativefiledialog-extended",
+    "url": "git+https://github.com/btzy/nativefiledialog-extended.git?ref=v1.2.1#86d5f2005fe1c00747348a12070fec493ea2407e",
+    "hash": "sha256-GwT42lMZAAKSJpUJE6MYOpSLKUD5o9nSe9lcsoeXgJY="
+  },
+  "12204a577bf30faa734406dfb357fb94da75c2cac0af147bf65c7aad76e6ea026cef": {
+    "name": "rpmalloc",
+    "url": "git+https://github.com/mjansson/rpmalloc.git?ref=1.4.5#e4393ff85585d91400bcbad2e7266c011075b673",
+    "hash": "sha256-dE6shh2F3a+pu510Vw9icQvk2aAoPWYCtrIlT08fF3A="
+  },
+  "1220976a6e2a19baa5fbe1669641f9b06443518ea7feda8c7d95bed9b6d39093dac0": {
+    "name": "getopt_port",
+    "url": "git+https://github.com/kimgr/getopt_port.git#9d3d387087d252970923db7f297f681622c4e026",
+    "hash": "sha256-k8BXLDC4tup83BwU/UQ5PG2yFPiN7boInm1x6MizGYQ="
+  },
+  "1220babb7939707ca390b934657dfd3c8c3a6a78cc9442e4cbd43e3f9ffd49daec9e": {
+    "name": "freetype",
+    "url": "git+https://github.com/hexops/freetype.git#e8c5b37f320db03acba410d993441815bc809606",
+    "hash": "sha256-7WelJ62c/28QlxTwsooVsAbYmhp3FmxKNq1Tte2JcMY="
+  },
+  "122059777e9e24227733f386b2929a78e15be9b748c99dba0d209744c910671b101c": {
+    "name": "brotli",
+    "url": "https://pkg.machengine.org/brotli/4c10522a5fa3b4fd7f8beedc8af1e20309719da9.tar.gz",
+    "hash": "sha256-rYdJkDtdGf0t3Yu/10sMjFDuNOn9gQ1euBbwzk+fex0="
+  },
+  "1220619c06a947cfacce985293ff16994db6058f2369d3c2ffcf9da60d7caa8b2f9b": {
+    "name": "stb",
+    "url": "git+https://github.com/nothings/stb.git#ae721c50eaf761660b4f90cc590453cdb0c2acd0",
+    "hash": "sha256-BIhbhXV7q5vodJ3N14vN9mEVwqrP6z9zqEEQrfLPzvI="
+  },
+  "122087a3c6a0d6583422f488f6d23111280edd686201e23a0c3d13ecdc3f83a2f020": {
+    "name": "dtl",
+    "url": "git+https://github.com/cubicdaiya/dtl.git?ref=v1.20#cd45dd48089c6e9f7a595d920ddfb82c08d59150",
+    "hash": "sha256-wVUlwkAiDuvc7sp69XHvpUwnok37J6vGeEADjhZqn9s="
+  },
+  "12203ada5de99b48676019c52ad8ea06a5cae74319c5f1fe5aaf020ec9636872f423": {
+    "name": "nlohmann-json",
+    "url": "git+https://github.com/nlohmann/json.git?ref=v3.11.3#9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03",
+    "hash": "sha256-7F0Jon+1oWL7uqet5i1IgHX0fUw/+z0QwEcA3zs5xHg="
+  },
+  "12205753d239db241243ecde78912886dac72a3f5e91455976539159178a7d7a02ff": {
+    "name": "pdqsort",
+    "url": "git+https://github.com/orlp/pdqsort#b1ef26a55cdb60d236a5cb199c4234c704f46726",
+    "hash": "sha256-xn3Jjn/jxJBckpg1Tx3HHVAWYPVTFMiDFiYgB2WX7Sc="
+  },
+  "1220ea1db414bf66b8944aff517b6b5de5b909653a5f79b30cba3a3955032698e46e": {
+    "name": "robin-hood-hashing",
+    "url": "git+https://github.com/martinus/robin-hood-hashing#7697343363af4cc3f42cab17be49e6af9ab181e2",
+    "hash": "sha256-17Mec4DC+BxgBVQSSxWldek7lDKCQ2Cmkjh7DKzppBk="
+  },
+  "12207db6e103b233a3fcf06eaa1be27de8bc85036d090c2637a838c9a1e1dffcbf41": {
+    "name": "xxHash",
+    "url": "git+https://github.com/Cyan4973/xxHash#a57f6cce2698049863af8c25787084ae0489d849",
+    "hash": "sha256-JlYhbyYvB7NnP/GaAjry4wro65bT32Lx6Isawi3YwNw="
+  }
+}
